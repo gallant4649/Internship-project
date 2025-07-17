@@ -1,0 +1,139 @@
+/* Reset & Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #e8f8ff;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: transparent;
+}
+
+header .logo {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.hero h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #3baaf4;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Summary Card */
+.summary {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.progress-container {
+    margin: 15px 0;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 10px;
+    height: 10px;
+    margin: 8px 0;
+    position: relative;
+}
+
+.progress {
+    background-color: #3baaf4;
+    height: 10px;
+    border-radius: 10px;
+}
+
+.progress-text {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.total-activities {
+    margin-top: 20px;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background-color: #3baaf4;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #004080;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    border-radius: 12px;
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.footer-right ul {
+    list-style: none;
+}
+
+.footer-right ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-right h3 {
+    margin-bottom: 10px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    margin: 20px 0;
+    color: #555;
+}
